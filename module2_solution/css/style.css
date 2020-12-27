@@ -1,0 +1,42 @@
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 26.25px;
+  }
+  
+  p {
+      color: black;
+  }
+  
+  p.cat {
+      position: absolute;
+      border: 1px solid black;
+      font-size: 18.75px;
+      text-align: center;
+      line-height: 30px;
+      width: 40%;
+      height: 35px;
+      background-color: red;
+      right: 20px;
+      top: 1px;
+  }
+  
+  p#text {
+      padding: 15px;
+      padding-top: 24px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+  }
+
+p#chicken {
+    background-color: pink;
+}
+
+p#beef {
+    background-color: red;
+    color: white;
+}
+
+p#sushi {
+    background-color: yellow;
+}
