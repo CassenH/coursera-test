@@ -1,0 +1,61 @@
+/** HEADER **/
+#header-nav {
+    height: 100px;
+    width: 100%;
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
+  }
+
+.navbar-brand h1 { /* Restaurant name */
+color: #111111;
+font-weight: bold;
+text-align: left;
+}
+
+#main-content {
+    padding: 0px;
+    width: 100%;
+}
+
+.content {
+    background-color: #999999;
+    height: 1000px;
+    color: #111111;
+    margin-left: 15px;
+    width: calc(100% - 30px);
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #999999;
+    border-color: #111111;
+    margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #111111;
+    width: 40px;
+    height: 4px;
+    margin: 6px;
+
+}
+
+#collapsable-nav {
+    background-color: #d3d3d3;
+    margin-top: 100px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #111111;
+}
+
+h2 {
+    margin-top: 160px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        margin-left: 40px;
+        width: calc(100% - 80px);
+    }
+}
